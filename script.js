@@ -42,3 +42,7 @@ function enter(event) {
 };
 
 
+function findBigger(value){
+    
+}
+
