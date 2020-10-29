@@ -1,4 +1,4 @@
-const checkButton = documedwnt.querySelector("#checkButton");
+const checkButton = document.querySelector("#checkButton");
 checkButton.addEventListener("click", check);
 
 const num = document.getElementById("numberPreCheck");
@@ -25,8 +25,8 @@ function decimalRoman(value) {
 
     for (var i = 0; i<romanNum.length; i++) {
         while (value >= dNum[i]) {
-            value -= dNum[i];
-            romanNumeral += romanNum[i];
+        value -= dNum[i];
+        romanNumeral += romanNum[i];
        }
     }
     result.innerHTML = `${num.value} converted as ${romanNumeral}`;
@@ -40,3 +40,5 @@ function enter(event) {
         check();
     }
 };
+
+
