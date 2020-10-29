@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cbae82;
+  }
+  h1 {
+    margin: 80px;
+    color: rgb(48, 45, 40);
+    border: 3px solid rgb(48, 45, 40);
+    border-radius: 15px;
+    font-size: 50px;
+    background-color: aqua;
+    padding: 10px;
+  }
+  
+  h2 {
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  
+  #numberPreCheck {
+    display: block;
+    height: 50px;
+    border: 2px solid purple;
+    border-radius: 15px;
+    padding: 0 40px;
+    font-size: 20px;
+    background-color: wheat;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #checkButton{
+      display: block;
+      height: 50px;
+      border-radius: 15px;
+      font-size: 25px;
+      background-color: wheat;
+      width: 300px;
+      margin-bottom: 40px;
+      border: 2px solid purple;
+  }
+  h3 { 
+      font-size: 20px;
+      text-align: center;
+      
+  }
